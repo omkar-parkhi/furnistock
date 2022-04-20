@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	scroll-behavior:smooth;	
+}/*To make scrolling smooth*/
+
+.navbar-brand img{
+	width:120px;
+	height:35px;	
+}/*styling logo of the template*/
+
+body{
+	overflow-X:hidden;	
+	padding:0px;
+	margin:0px;
+}/*Styling body tag*/
+
+
+h1,h2,h3,h4,h5,h6,p,li,a{
+	font-family: 'Roboto', sans-serif;	
+}
+
+.container-fluid{
+	padding:0;	
+}
+
+.social{
+	width:100%;
+	background:#2a2929;
+	height:50px;	
+}
+
+.social ul{
+	list-style-type:none;
+	padding-left:0px;	
+	padding-top:15px;
+	margin-bottom:3px;
+}
+
+.social ul li{
+	padding-right:20px;	
+	display:inline;
+}
+
+.social ul li a{
+	font-size:19px;
+	color:#fff;	
+}
+
+.social ul li a:hover{
+	color:#b800c9;	
+}
+
+.nav-link{
+	color:#2a2929 !important;	
+	transition:1s;
+  transition-timing-function:cubic-bezier(1,1,0,2);
+}
+
+.dropdown-item{
+	color:#2a2929 !important;
+}
+
+.dropdown-menu{
+	background:#fff !important;
+	border:none;
+	transition:1s;
+  transition-timing-function:cubic-bezier(1,1,0,2);	
+}
+
+.dropdown-item:hover{
+	color:#b800c9 !important;
+}
+
+.nav-link:hover{
+	color:#b800c9 !important;
+}
+
+.header{
+	background:linear-gradient(45deg, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.7) 50%), url(../images/background/building-chair-comfort-276528.jpg) no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:670px;	
+}
+
+.header h1, .header p{
+	color:#fff;
+	width:100%;
+	text-align:center;
+	opacity:0.7;
+	padding-top:200px;
+	font-size:50px;	
+}
+
+.header div{
+	margin-top:50px;	
+}
+
+.header p{
+	padding-top:40px;
+	font-size:22px !important;	
+}
+
+.inner{
+	height:500px;	
+}
+
+.inner img{
+	width:100%;
+	height:100%;	
+		-webkit-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+-moz-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+}
+
+.contain{
+	width:80%;
+	margin:0 auto;	
+}
+/*The contain class is used to leave 10% left and 10% right space of the page-*/
+
+.contain h1{
+	font-weight:700;
+	width:100%;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.data{
+	padding-top:30px;
+	padding-bottom:30px;
+	-webkit-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+-moz-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+border-radius:20px;
+}
+
+.data h1{
+	font-size:35px;
+	font-weight:700;
+	margin-bottom:40px;
+	padding-bottom:20px;
+	display:inline-block !important;
+	border-bottom:3px solid #b800c9;
+	text-align:left;	
+	width:auto;
+	padding-top:10px;
+}
+
+.btn{
+	width:140px;
+	height:40px;
+	background:linear-gradient(45deg, #9300c9 30%, #b800c9);
+	color:#fff;
+	border-radius:30px;	
+	font-family: 'Roboto', sans-serif;
+	-webkit-box-shadow: -1px 15px 20px -10px rgba(184,0,201,1);
+-moz-box-shadow: -1px 15px 20px -10px rgba(184,0,201,1);
+box-shadow: -1px 15px 20px -10px rgba(184,0,201,1);
+}
+
+.btn:hover{
+	color:#fff;	
+}
+
+.about{
+	padding-top:50px;
+}
+
+.abimg{
+	height:400px;	
+}
+
+.abimg img{
+		width:100%;
+	height:100%;	
+		-webkit-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+-moz-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+}
+
+.special{
+	padding-top:50px;	
+}
+
+.item img{
+	width:320px;
+	height:350px;	
+}
+
+.card img{
+	width:320px;
+	height:350px;	
+}
+
+.card{
+	border:none;
+	-webkit-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+-moz-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+margin-bottom:30px;	
+}
+
+.card-body span{
+	color:rgba(42,42,41,1);
+	text-decoration:line-through;
+}
+
+.discountprice{
+	color:#b800c9;
+}
+
+.card-img span{
+	margin-right:10px;	
+}
+
+#icon1{
+	position:absolute;
+	font-size:16px;
+	color:#fff;
+	background:linear-gradient(45deg, #9300c9 30%, #b800c9);
+	padding:5px 12px 5px 12px;
+	margin:15px 0px 0px 15px;
+	border-radius:8px;
+	font-weight:300;
+	text-decoration:none;
+	text-align:center;
+}
+
+#icon2{
+	position:absolute;
+	font-size:16px;
+	color:#fff;
+	background:linear-gradient(45deg, #9300c9 30%, #b800c9);
+	padding:5px 12px 5px 12px;
+	margin:300px 0px 0px 67%;
+	border-radius:8px;
+	font-weight:300;
+	text-decoration:none;
+	text-align:center;
+}
+
+#icon3{
+	position:absolute;
+	font-size:35px;
+	color:#fff;	
+  margin:300px 0px 0px 15px;
+  transition:1s;
+  transition-timing-function:cubic-bezier(1,1,0,2);
+}
+
+#icon3:hover{
+		background: -webkit-linear-gradient(30deg, #9300c9, #b800c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;		
+}
+.card-body h3{
+	width:100%;
+	text-align:center;
+	fnt-size:19px;
+}
+.card-body P{
+	width:100%;	
+	text-align:center;
+}
+.btncenter{
+	width:140px;
+	height:40px;
+	margin:0 auto;	
+}
+.owl-prev{
+	left:-30px;		
+}
+.owl-next{
+	right:-30px;	
+}
+.owl-prev, .owl-next{
+	position:absolute;
+	top:30%;	
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+	background-color:transparent;	
+}
+.owl-theme .owl-dots .owl-dot span{
+	width:10px;
+	height:10px;
+	border-radius:1px;
+	transform:rotate(45deg);
+
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	width:10px;
+	height:10px;
+	border-radius:1px;
+	transform:rotate(45deg);
+	background:linear-gradient(70deg, #9300c9, #b800c9);
+}
+/*The classes starts from owl are used to make carousel*/
+
+.gallery{
+	padding-top:50px;	
+}
+
+.first{
+	padding-left:0px !important;
+	padding-right:0px !important;	
+}
+
+.first img{
+	width:100%;
+	height:300px;
+}
+
+.price{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:linear-gradient(45deg, #9300c9, #b800c9);
+	z-index:2;
+	opacity:0;
+	transition:1s;
+	 transition-timing-function:cubic-bezier(1,1,0,2);
+}
+
+.price h4{
+	font-weight:500;
+	color:#fff;
+	margin-top:20%;
+	width:100%;
+	text-align:center;	
+}
+
+.price p{
+	width:100%;
+	text-align:center;
+	color:#fff;	
+}
+
+.price button{
+	border:1px solid #fff;	
+}
+
+.first:hover .price{
+	opacity:0.8;
+}
+	
+.subscribe{
+	padding-top:50px;	
+}
+
+.text{
+	height:40px;
+	background:none;
+	border:1px solid #b800c9;
+  border-radius:30px;margin-bottom:30px;
+}
+
+.footer{
+	margin-top:50px;
+	background-color:#2a2929;
+}
+
+.footer h4{
+	text-align:left;
+	 background: -webkit-linear-gradient(45deg, #9300c9, #b800c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:30px;
+  padding:30px 0 0 30px;	
+}
+
+.footer ul{
+	padding:0px;
+	list-style-type:none;
+}
+
+.footer ul li{
+	text-align:left;
+	margin-top:10px;
+}
+
+.footer ul li a{
+	padding:5px;
+	color:#fff;
+	font-size:18px;
+	padding:30px 0px 0px 30px;
+	text-decoration:none;	
+	
+}
+
+.footer ul li a:hover{
+	color:#b800c9;
+}
+
+.address ul li{
+		display:inline;
+}
+
+.address p{
+	padding-left:30px;
+	color:#fff;	
+	
+}
+
+.copyright{
+	background:linear-gradient(45deg, #9300c9 30%, #b800c9);
+	height:50px;	
+}
+
+.copyright p{
+	color:#fff;	
+	width:100%;
+	text-align:center;
+	padding-top:15px;
+	margin-bottom:0px;
+}
+
+.livingroom{
+	width:320px;
+	height:450px;
+		-webkit-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+-moz-box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+box-shadow: -1px 15px 20px -10px rgba(42,41,41,1);
+margin-bottom:30px;
+margin:0 auto;
+}
+
+.livingroom img{
+	width:100%;
+	height:50%;
+}
+
+.livingroom  h3{
+	width:100%;
+	text-align:center;
+	margin-top:40px;	
+}
+
+.livingroom p{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100%;
+	text-align:center;	
+}
+
+.livingroom p span{
+	text-decoration:line-through;	
+}
+
+#furniicon1{
+	position:absolute;
+	font-size:16px;
+	color:#fff;
+	background:linear-gradient(45deg, #9300c9 30%, #b800c9);
+	padding:5px 12px 5px 12px;
+	margin:15px 0px 0px 15px;
+	border-radius:8px;
+	font-weight:300;
+	text-decoration:none;
+	text-align:center;
+}
+
+#furniicon2{
+	position:absolute;
+	font-size:16px;
+	color:#fff;
+	background:linear-gradient(45deg, #9300c9 30%, #b800c9);
+	padding:5px 12px 5px 12px;
+	margin:180px 0px 0px 210px;
+	border-radius:8px;
+	font-weight:300;
+	text-decoration:none;
+	text-align:center;
+}
+
+#furniicon3{
+	position:absolute;
+	font-size:35px;
+	color:#fff;	
+  margin:180px 0px 0px 15px;
+  transition:1s;
+  transition-timing-function:cubic-bezier(1,1,0,2);
+}
+
+#furniicon1 span, #furniicon2 span{
+	margin-right:4px;	
+}
+#furniicon3:hover{
+		background: -webkit-linear-gradient(30deg, #9300c9, #b800c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;		
+}
+
+/*The id's furniicon1,furniicon2,furniicon3 are used to style the icons used in livingroom,bedroom,bathroom page*/
+
+
+/*Following media queries are used to make this template looks appropriate in all appropriate devices.*/
+
+@media only screen and (min-width:320px){
+	.contain{
+		width:90%;	
+	}
+	#icon2{
+		margin-left:55%;	
+	}
+	.first{
+		margin-bottom:20px;	
+	}
+	.livingroom{
+		margin-left:-18px;
+		margin-bottom:20px;	
+	}
+}
+@media only screen and (min-width:767px){
+	.contain{
+		width:80%;
+	}
+	#icon2{
+		margin-left:59%;	
+	}
+	
+	.livingroom{
+		margin:0 auto;
+		margin-bottom:20px;		
+	}
+	
+}
+@media only screen and (min-width:992px){
+	#icon2{
+		margin-left:67%;	
+	}	
+	.data{
+		margin-top:130px;	
+	}
+	.livingroom{
+		margin:0 auto;	
+	}
+}
